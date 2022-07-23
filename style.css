@@ -50,7 +50,7 @@ body {
 }
 .navicon2{
     float: right;
-    /* padding-left: 5px; */
+    padding-left: 5px;
 } */
 
 .line {
@@ -111,13 +111,13 @@ input[type=checkbox]:checked+label {
 .ingredients1 {
     float: left;
     position: relative;
-    margin-right: 200px;
+    margin-right: 220px;
 }
 
 .ingredients2 {
 
     position: relative;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .logo {
