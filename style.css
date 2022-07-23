@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;500&family=Caveat:wght@400;500;600;700&family=Oswald:wght@600&family=Pacifico&family=Quicksand:wght@300&family=Shadows+Into+Light&family=Yellowtail&display=swap');
+
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    padding: 0%;
+}
+
+
+body {
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: black;
+    background: white;
+    position: relative;
+    margin: 0 150px;
+    /* width: 70%; */
+}
+
+.logoname {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+    top: -5px;
+    font-size: 25px;
+}
+
+.logoname2 {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    margin-left: 50px;
+    margin-top: -30px;
+    font-size: 10px;
+}
+
+.navicon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    float: right;
+    margin-top: -50px;
+}
+/* .navicon1{
+    margin: 0px 0px;
+}
+.navicon2{
+    float: right;
+    /* padding-left: 5px; */
+} */
+
+.line {
+    border: none;
+    height: 0px;
+    box-shadow: 0 1px 4px 1px rgb(157, 153, 153);
+
+}
+
+.main-h2
+{
+    font-family: 'Oswald', sans-serif;
+    
+}
+.main-p {
+    font-size: 11px;
+    line-height:0.5%;
+    color: grey;
+    position: relative;
+    margin-top: -20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.print-icon {
+    float: right;
+    position: relative;
+    margin-top: -40px;
+    margin-right: 15px;
+    font-size: 10px;
+    color: rgb(202, 195, 195);
+}
+
+.paragraph {
+    color: black;
+    font-size: large;
+}
+
+.pizza-img {
+    width: 100%;
+}
+
+.ingredients {
+    background-image: url(assets/list-bg.png);
+    font-family: "Patrick Hand", cursive;
+    font-size:18px;
+    height: 100%;
+    display: flex;
+    padding: 2rem 3rem;
+    margin-bottom: 4rem;
+
+   
+}
+
+input[type=checkbox]:checked+label {
+    text-decoration: line-through;
+}
+
+.ingredients1 {
+    float: left;
+    position: relative;
+    margin-right: 200px;
+}
+
+.ingredients2 {
+
+    position: relative;
+    margin-left: 100px;
+}
+
+.logo {
+    float: left;
+}
+
+.Vanessa{
+    float: left;
+}
+.v1{
+    width: 75%;
+}
+.share-button {
+    float: right;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(218 87 40);
+    position: relative;
+    margin-top: -120px;
+  
+}
+
+.Vanessa-h {
+    position: relative;
+    top: 10px;
+}
+
+.Vanessa-p {
+    color: grey;
+    font-size: 21pt;
+}
+
+.footer-line {
+    border-top-width: 1px;
+    border-bottom: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+}
+
+.img-footer {
+    color: rgb(227, 219, 219);
+    position: relative;
+    top: -25px;
+    margin-left: 50%;
+
+}
+
+.copy {
+    font-size: 11px;
+    text-align: center;
+    color: rgb(181, 183, 184);
+}
